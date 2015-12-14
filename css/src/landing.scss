@@ -1,0 +1,53 @@
+#landing {
+
+    background-image: url(../images/banner.jpeg);
+    background-size: cover;
+    height: 70vh;
+    //width: 100%;
+
+      //background-image: url(../images/banner.jpg);
+
+      .navbar-inverse .navbar-nav>.active>a {
+        color: $secondary-text-color;
+        background-color: transparent;
+
+      }
+
+      .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+      }
+
+      .navbar-brand {
+        font-family: 'Pacifico', cursive;
+        color: $yellow-color;
+
+      }
+
+      li a {
+        color: $secondary-text-color;
+      }
+
+    .landing-content {
+      position: relative;
+      top: 21vh;
+      text-align: center;
+
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: $secondary-text-color;
+      }
+
+      h4 {
+        color: $secondary-text-color;
+      }
+
+      .show-more {
+        background-color: $selective-color-blue;
+        position: absolute;
+        top: 23vh;
+        left: 37vw;
+      }
+    }
+}

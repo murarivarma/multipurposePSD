@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#landing {
+  background-image: url(../images/banner.jpeg);
+  background-size: cover;
+  height: 70vh; }
+  #landing .navbar-inverse .navbar-nav > .active > a {
+    color: #FFF;
+    background-color: transparent; }
+  #landing .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent; }
+  #landing .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #f6c05c; }
+  #landing li a {
+    color: #FFF; }
+  #landing .landing-content {
+    position: relative;
+    top: 21vh;
+    text-align: center; }
+    #landing .landing-content h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #FFF; }
+    #landing .landing-content h4 {
+      color: #FFF; }
+    #landing .landing-content .show-more {
+      background-color: #709DCB;
+      position: absolute;
+      top: 23vh;
+      left: 37vw; }
+
+/*# sourceMappingURL=app.css.map */
