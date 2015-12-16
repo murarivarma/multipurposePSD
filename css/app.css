@@ -60,4 +60,27 @@ body {
     #what-we-offer .column-spacing p {
       margin-bottom: 4em; }
 
+#about .about-image-column {
+  background-image: url(../images/who-we-are-2.jpg);
+  background-size: cover;
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat; }
+#about .about-data-column {
+  background-color: #f6c05c;
+  color: #FFF;
+  padding: 5em; }
+  #about .about-data-column h3 {
+    text-transform: uppercase; }
+  #about .about-data-column p {
+    line-height: 28px;
+    margin-top: 2em;
+    color: #F9E1AC; }
+#about .readmore-btn {
+  background-color: #E6AC48;
+  border: 1px solid rgba(170, 170, 170, 0.53);
+  margin-top: 3.7em;
+  padding: 12px 28px;
+  color: #F9E1AC; }
+
 /*# sourceMappingURL=app.css.map */
