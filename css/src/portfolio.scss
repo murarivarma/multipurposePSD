@@ -1,0 +1,147 @@
+#portfolio {
+  position: relative;
+  text-align: center;
+  height: 330px;
+  //border-bottom: thick solid red;
+
+
+  .work-data {
+
+    padding-top: 70px;
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $selective-color-blue;
+
+    }
+
+    .border-line {
+      border-bottom: solid;
+      border-bottom-color: $yellow-color;
+      padding-bottom: 0.55em;
+      //border-bottom-width: 0.7px;
+      //line-height: 20px;
+      //margin: 2em 0;
+    }
+    .cog-fortawesome {
+      position: absolute;
+      font-size: 1.4em;
+      left: 19.3em;
+      top: 2.8em;
+      color: $yellow-color;
+    }
+
+    p {
+      padding-top: 2.5em;
+      padding-bottom: 3em;
+    }
+
+    ul li {
+      list-style : none;
+      margin-right: 4em;
+      display: inline;
+    }
+
+    .selected-button {
+      background-color: $selective-color-blue;
+      padding: 0.2em 1.2em;
+      border-radius: 0.45em;
+    }
+  }
+/*
+  .portfolio-1 {
+    background-image: url(../images/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+     background-size: 100% auto;
+     height: 299px;
+     margin: 0 auto;
+    padding:0px;
+     //width: 366px;
+    //background-size: cover;
+  }
+
+  .portfolio-2 {
+    background-image: url(../images/portfolio-2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+     background-size: 100% auto;
+     height: 300px;
+     margin: 0 auto;
+     //width: 398px;
+    //background-size: contain;
+  }
+
+  .portfolio-3 {
+    background-image: url(../images/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+     background-size: 100% auto;
+     height: 300px;
+     //width: 366px;
+    //background-size: contain;
+  }
+
+  .portfolio-4 {
+    background-image: url(../images/portfolio-4.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+     background-size: 100% auto;
+     height: 300px;
+     //width: 366px;
+    //background-size: contain;
+  }
+*/
+
+  .images-row {
+    //width: 2000px;
+  //display:inline-grid;
+    &.top-row {
+      margin-top: 2em;
+
+      .text-image {
+        position:relative;
+
+        .text {
+          color: $secondary-text-color;
+          font-weight: bold;
+          font-size: 189%;
+          position: absolute;
+          left: 3em;
+          top: 3.8em;
+        }
+      }
+    }
+    img {
+      width: 109%;
+      height: 80%;
+      margin-left: -20px;
+      margin-right: 0px;
+      // width: 113%;
+      // height: 80%;
+      // margin-left: -20px;
+      // margin-right: 0px;
+
+      //style: "display:block";
+      //height: 200px;
+      //float: left;
+    }
+    // ul {
+    //   //white-space: wrap;
+    // }
+    //
+    // ul, li {
+    //   //list-style: none;
+    //   display: inline;
+    // }
+  }
+}
