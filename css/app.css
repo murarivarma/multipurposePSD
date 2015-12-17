@@ -87,59 +87,8 @@ body {
 #portfolio {
   position: relative;
   text-align: center;
-  height: 330px;
-  /*
-    .portfolio-1 {
-      background-image: url(../images/portfolio-1.jpg);
-      background-repeat: no-repeat;
-      -webkit-background-size: 100% auto;
-      -moz-background-size: 100% auto;
-      -o-background-size: 100% auto;
-       background-size: 100% auto;
-       height: 299px;
-       margin: 0 auto;
-      padding:0px;
-       //width: 366px;
-      //background-size: cover;
-    }
-  
-    .portfolio-2 {
-      background-image: url(../images/portfolio-2.jpg);
-      background-repeat: no-repeat;
-      -webkit-background-size: 100% auto;
-      -moz-background-size: 100% auto;
-      -o-background-size: 100% auto;
-       background-size: 100% auto;
-       height: 300px;
-       margin: 0 auto;
-       //width: 398px;
-      //background-size: contain;
-    }
-  
-    .portfolio-3 {
-      background-image: url(../images/portfolio-3.jpg);
-      background-repeat: no-repeat;
-      -webkit-background-size: 100% auto;
-      -moz-background-size: 100% auto;
-      -o-background-size: 100% auto;
-       background-size: 100% auto;
-       height: 300px;
-       //width: 366px;
-      //background-size: contain;
-    }
-  
-    .portfolio-4 {
-      background-image: url(../images/portfolio-4.jpg);
-      background-repeat: no-repeat;
-      -webkit-background-size: 100% auto;
-      -moz-background-size: 100% auto;
-      -o-background-size: 100% auto;
-       background-size: 100% auto;
-       height: 300px;
-       //width: 366px;
-      //background-size: contain;
-    }
-  */ }
+  height: 61em;
+  width: 101.6em; }
   #portfolio .work-data {
     padding-top: 70px; }
     #portfolio .work-data h3 {
@@ -179,9 +128,57 @@ body {
         left: 3em;
         top: 3.8em; }
   #portfolio .images-row img {
-    width: 109%;
-    height: 80%;
+    width: 110.3%;
+    height: 31.8%;
     margin-left: -20px;
     margin-right: 0px; }
+
+#testimonials {
+  position: relative;
+  text-align: center;
+  height: 34em; }
+  #testimonials .testimonials-data h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #709DCB;
+    padding-top: 2.6em; }
+  #testimonials .testimonials-data .border-line {
+    border-bottom: solid;
+    border-bottom-color: #f6c05c;
+    padding-bottom: 0.55em; }
+  #testimonials .testimonials-data .comments-symbol {
+    position: absolute;
+    font-size: 1.4em;
+    left: 19.3em;
+    top: 5.9em;
+    color: #f6c05c;
+    padding-bottom: 2.6em; }
+  #testimonials .testimonial-data-row {
+    margin-top: 6em;
+    height: 18em; }
+    #testimonials .testimonial-data-row .testimonial-text {
+      border: 15px solid #F6F3F4;
+      background-color: #F6F3F4;
+      text-align: left;
+      margin-right: 2em; }
+    #testimonials .testimonial-data-row i {
+      position: absolute;
+      left: 0.8em;
+      font-size: 185%;
+      color: #68466A; }
+    #testimonials .testimonial-data-row .user-name {
+      position: absolute;
+      left: 5em;
+      top: 15em;
+      font-size: 1.4vh; }
+      #testimonials .testimonial-data-row .user-name span {
+        font-weight: bold; }
+  #testimonials #myCarousel .carousel-indicators li {
+    border-color: #F6F3F4;
+    background-color: #F6F3F4; }
+    #testimonials #myCarousel .carousel-indicators li.active {
+      border-color: #709DCB;
+      border-width: 2px;
+      background-color: #FFF; }
 
 /*# sourceMappingURL=app.css.map */

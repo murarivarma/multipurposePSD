@@ -8,9 +8,12 @@
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript" src ="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   </head>
   <body>
+    <!-- Home slide -->
     <section id="landing">
         <nav class="navbar navbar-inverse">
         <div class="container">
@@ -43,7 +46,7 @@
           </div>
         </div>
     </section>
-    <!-- what we offer slide -->
+    <!-- Services slide -->
     <section id="what-we-offer" class="container">
       <div class="row heading">
         <div class="col-sm-12">
@@ -88,6 +91,7 @@
         </div>
       </div>
     </section>
+    <!-- About slide -->
     <section id="about">
       <div class="container-fluid">
         <div class="row">
@@ -112,6 +116,7 @@
         </div>
       </div>
     </section>
+    <!-- Portfolio slide -->
     <section id="portfolio">
       <div class="container">
         <div class="row work-data">
@@ -131,6 +136,39 @@
           </div>
         </div>
       </div> <!--container div ends here-->
+      <div class="row images-row top-row">
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-1.jpg">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-2.jpg">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-image">
+          <img src="images/portfolio-3.jpg">
+          <div class="text">
+            <i class="fa fa-eye"></i>
+            <h5>Labore et dolore magnam</h5>
+            <h6>Wordpress</h6>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-4.jpg">
+        </div>
+      </div>
+      <div class="row images-row">
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-5.jpg">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-6.jpg">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-7.jpg">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <img src="images/portfolio-8.jpg">
+        </div>
+      </div>
       <!-- <div class="container-fluid"> -->
       <!--
         <div class="row images-row">
@@ -172,40 +210,119 @@
       </div> -->
 
       <!-- <div class="container-fluid"> -->
-        <div class="row images-row top-row">
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-1.jpg">
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-2.jpg">
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 text-image">
-              <img src="images/portfolio-3.jpg">
-              <div class="text">
-                <i class="fa fa-eye"></i>
-                <h5>Labore et dolore magnam</h5>
-                <h6>Wordpress</h6>
-              </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-4.jpg">
-          </div>
-        </div>
-        <div class="row images-row">
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-5.jpg">
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-6.jpg">
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-7.jpg">
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-              <img src="images/portfolio-8.jpg">
-          </div>
-        </div>
       <!-- </div> -->
     </section>
+    <!-- Testimonials slide -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="row testimonials-data">
+          <div class="col-sm-offset-2 col-sm-8">
+            <h3><span class="border-line">Testi</span>mo<span class="border-line">nials</span></h3>
+            <i class="fa fa-comments-o comments-symbol"></i>
+          </div>
+        </div>
+        <!-- Testimonial data row starts -->
+        <!-- <div class="row testimonial-data-row">
+          <div class="col-sm-offset-1 col-sm-5">
+            <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            <i class="fa fa-user"></i>
+            <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+          </div>
+          <div class="col-sm-5">
+            <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            <i class="fa fa-user"></i>
+            <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+          </div>
+        </div> -->
+        <!-- Testimonial data row ENDS -->
+        <!-- CAROUSEL Starts here -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="row testimonial-data-row">
+                <div class="col-sm-offset-1 col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+                <div class="col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row testimonial-data-row">
+                <div class="col-sm-offset-1 col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+                <div class="col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row testimonial-data-row">
+                <div class="col-sm-offset-1 col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+                <div class="col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row testimonial-data-row">
+                <div class="col-sm-offset-1 col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+                <div class="col-sm-5">
+                  <p class="testimonial-text">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <i class="fa fa-user"></i>
+                  <p class="user-name"><span>Jon Doe</span>,Company Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- CAROUSEL ends here -->
+      </div>
+    </section>
+    <!-- Contact slide -->
   </body>
 </html>
