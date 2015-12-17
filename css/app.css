@@ -116,6 +116,8 @@ body {
       background-color: #709DCB;
       padding: 0.2em 1.2em;
       border-radius: 0.45em; }
+  #portfolio .images-row div {
+    padding: 0; }
   #portfolio .images-row.top-row {
     margin-top: 2em; }
     #portfolio .images-row.top-row .text-image {
@@ -128,10 +130,10 @@ body {
         left: 3em;
         top: 3.8em; }
   #portfolio .images-row img {
-    width: 110.3%;
-    height: 31.8%;
     margin-left: -20px;
-    margin-right: 0px; }
+    margin-right: 0px;
+    width: 100%;
+    height: 315px; }
 
 #testimonials {
   position: relative;
