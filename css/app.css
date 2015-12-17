@@ -63,13 +63,14 @@ body {
 #about .about-image-column {
   background-image: url(../images/who-we-are-2.jpg);
   background-size: cover;
-  height: 75vh;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 75vh; }
 #about .about-data-column {
   background-color: #f6c05c;
   color: #FFF;
-  padding: 5em; }
+  padding: 5em;
+  height: 75vh; }
   #about .about-data-column h3 {
     text-transform: uppercase;
     font-weight: bold; }
